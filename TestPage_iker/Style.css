@@ -7,28 +7,42 @@
 }
 
 .first_div {
-
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 700px;
     background-image: url("fondo1.jpg");
     background-size: 100% 120%;
 }
 
 
-.menu {
-    background-color: blue;
-    position: sticky;
-}
+.menu {}
 
 
 .navegador {
-    left: 450px;
-    position: absolute;
+    z-index: 4;
+    position: sticky;
+    top: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0484a9+20,0484a9+31,066281+91 */
+    background: #0484a9;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #0484a9 20%, #0484a9 31%, #066281 91%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #0484a9 20%, #0484a9 31%, #066281 91%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #0484a9 20%, #0484a9 31%, #066281 91%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0484a9', endColorstr='#066281', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    left: 0px;
+    height: 40px;
+
 }
 
 
 .navegador a {
-
+    position: relative;
+    left: 350px;
     font-size: 30px;
     padding: 30px;
     text-decoration: none;
@@ -37,30 +51,37 @@
 
 
 .icons img {
+    top: -30px;
     position: relative;
-    left: 1350px;
-    height: 40px;
-    width: 40px;
-
+    left: 800px;
+    height: 30px;
+    width: 30px;
 }
 
+.icons a {
+    padding: 10px;
+}
+
+.logo {
+    width: 400px;
+}
 
 .logo img {
-    width: 250px;
-    margin-left: 10px;
+    width: 200px;
+    margin-left: 5px;
 }
 
 
 .logo_text1 {
     font-size: 30px;
-    margin: 65px;
+    margin: 40px;
 }
 
 
 .logo_text2 {
 
     font-size: 30px;
-    margin: 90px;
+    margin: 65px;
 
 }
 
@@ -92,6 +113,6 @@
     width: 250px;
     position: relative;
     left: 280px;
-    top: 50px;
+    top: 60px;
 
 }
