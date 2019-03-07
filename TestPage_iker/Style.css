@@ -6,6 +6,12 @@
 
 }
 
+.body {
+    display: flex;
+    margin: 0;
+}
+
+/*HEADER Y NAV */
 .first_div {
     position: relative;
     width: 100%;
@@ -116,3 +122,75 @@
     top: 60px;
 
 }
+
+/* FIN DE HEADER Y NAV */
+/* 1ST SECTION */
+.destiny_section {
+    display: table;
+    width: auto;
+
+
+}
+
+
+
+.Destiny {
+    margin-left: 100px;
+    position: relative;
+    left: 100px;
+    float: left;
+    /*fix for  buggy browsers*/
+    display: table-column;
+
+}
+
+
+.destiny_text {
+    text-align: center;
+    display: table-cell;
+    font-size: 18px;
+    color: white;
+    background-color: #151837;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 100px;
+}
+
+.destiny_price {
+    text-align: center;
+    font-size: 50px;
+    background-color: yellow;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 60px;
+    left: 150px;
+    color: #151837;
+}
+
+.Destiny img {
+    height: 250px;
+    width: 300px;
+
+
+
+
+}
+
+.destiny_text strong {
+
+    vertical-align: middle;
+
+}
+
+.destiny_name {
+
+    text-align: center;
+    color: blue;
+    position: relative;
+    font-size: 20px;
+    /*margin-left: 90px;*/
+}
+
+/*FIN 1ST SECTION */
