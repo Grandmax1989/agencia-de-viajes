@@ -11,7 +11,7 @@ img.center{
 
     height:20em;
     width:25em;
-    margin-top: 2em;
+    margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -21,7 +21,7 @@ img.center{
     
     .izq {
     
-        background-color: #191970;
+        background-color: white;
         width:50%;
         height:30em;
         float:left;
@@ -32,11 +32,11 @@ img.center{
     .drc {
     
         
-        background-color: #191970;
+        background-color: white;
         width:50%;
         height:30em;
         float:left;
-        color: white;
+        
         
         
     }
