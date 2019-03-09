@@ -1,0 +1,98 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+
+img.center{
+
+    height:20em;
+    width:25em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    }
+    
+    
+    .izq {
+    
+        background-color: green;
+        width:50%;
+        height:30em;
+        float:left;
+        /* background-image: url("/img/geekshubsMapa.jpg"); */
+    
+    }
+    
+    .drc {
+    
+        
+        background-color: #191970;
+        width:50%;
+        height:30em;
+        float:left;
+        color: white;
+        
+        
+    }
+    
+    footer {
+    
+        background-color: tomato;
+    
+    }
+    
+    .izqf {
+    
+        background-color: #191970;
+        width:33%;
+        height:10em;
+        float:left;
+        color: white;
+        text-align: center;
+        
+        
+    }
+    
+    .cntrf {
+    
+        background-color: #191970;
+        width:33%;
+        height:10em;
+        float:left;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    .drcf {
+    
+        background-color: #191970;
+        width:34%;
+        height:10em;
+        float:left;
+        color: white;
+        text-align: center;
+           
+    }
+    
+    .bottomf {
+    
+        color: white;
+        text-align: center;
+        width: 100%;
+        background-color: tomato;
+        display: inline-block;
+        
+    }
+    
+    button {
+    
+    background-color: yellow;
+    
+    }
