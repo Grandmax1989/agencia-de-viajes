@@ -40,6 +40,12 @@ img.center{
         
         
     }
+
+    span{
+
+margin-top: 3em;
+
+    }
     
     footer {
     
@@ -91,8 +97,23 @@ img.center{
         
     }
     
-    button {
+    .bformulario {
     
     background-color: yellow;
+    padding:1em;
+    
+    margin-top: 2em;
     
     }
+
+    #dform{
+    
+        width:40%;
+    
+    }
+
+    #dformmessage{
+
+        width:80.5%;
+    }
+
