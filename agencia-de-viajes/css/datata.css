@@ -1,0 +1,119 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+
+img.center{
+
+    height:20em;
+    width:25em;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    }
+    
+    
+    .izq {
+    
+        background-color: white;
+        width:50%;
+        height:30em;
+        float:left;
+        /* background-image: url("/img/geekshubsMapa.jpg"); */
+    
+    }
+    
+    .drc {
+    
+        
+        background-color: white;
+        width:50%;
+        height:30em;
+        float:left;
+        
+        
+        
+    }
+
+    
+    
+    footer {
+    
+        background-color: tomato;
+    
+    }
+    
+    .izqf {
+    
+        background-color: #191970;
+        width:33%;
+        height:10em;
+        float:left;
+        color: white;
+        vertical-align: top;
+        padding-left: 2em;
+        
+        
+    }
+    
+    .cntrf {
+    
+        background-color: #191970;
+        width:33%;
+        height:10em;
+        float:left;
+        color: white;
+        vertical-align: top;
+        padding-left: 7em;
+        
+        
+    }
+    
+    .drcf {
+    
+        background-color: #191970;
+        width:34%;
+        height:10em;
+        float:left;
+        color: white;
+        vertical-align: top;
+        padding-left: 7em;  
+           
+    }
+    
+    .bottomf {
+    
+        color: white;
+        text-align: center;
+        width: 100%;
+        background-color: tomato;
+        display: inline-block;
+        
+    }
+    
+    .bformulario {
+    
+    background-color: yellow;
+    padding:1em;
+    
+    margin-top: 2em;
+    
+    }
+
+    #dform{
+    
+        width:40%;
+    
+    }
+
+    #dformmessage{
+
+        width:80.5%;
+    }
+
